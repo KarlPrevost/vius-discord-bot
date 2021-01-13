@@ -9,7 +9,7 @@ const PREFIX = "!";
 bot.on("ready", async () => {
     bot.user.setActivity("le marché", { type: "WATCHING"});
 })
-bot.login(config.token);
+bot.login(process.env.TOKEN);
 
 // quand un message est entré le bot vérifie si c'est une commande et agit en conséquence
 bot.on('message', message => {
