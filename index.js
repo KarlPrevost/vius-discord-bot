@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const config = require("./config.json");
 const commandsUp = ("```Voici la liste des commandes Bot disponible:  \n!o : \n!o Achat Bionic-Soldiers 10.54 \n!o Vente Universal-Export 9.32 +5.56% ```");
 
 
